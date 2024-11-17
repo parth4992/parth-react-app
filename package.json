@@ -4,9 +4,12 @@
   },
   "homepage": "https://parth4992.github.io/",
   "scripts": {
-       "predeploy": "npm run build",
-       "deploy": "gh-pages -d build",
-        "start": "react-scripts start",
-        "build": "react-scripts build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
