@@ -1,23 +1,13 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
-
-function NavBarWrapper() {
+function NavBar() {
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">Parth Srivastav</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#lol">Lol</Nav.Link>
-              <Nav.Link href="#anime">Anime</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      <ul>
+        <li>About me</li>
+        <li>LoL</li>
+        <li>Anime</li>
+      </ul>
     </div>
   );
 }
 
-export default NavBarWrapper;
+export default NavBar;
